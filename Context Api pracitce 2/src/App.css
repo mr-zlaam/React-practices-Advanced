@@ -1,0 +1,32 @@
+* {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+}
+
+.button {
+          padding: 8px 15px;
+          background: blue;
+          font-weight: 700;
+          color: white;
+          border: 0.5px solid transparent;
+          margin: 5px 10px;
+          border-radius: 10px;
+
+          &:hover {
+                    opacity: 0.8;
+                    transition: all 0.3s ease-in-out;
+          }
+
+          &:active {
+                    border-top: none;
+                    border-left: none;
+                    border-radius: none;
+          }
+}
+
+.number {
+          font-size: 2rem;
+          font-weight: 700;
+          text-align: center;
+}
